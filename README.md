@@ -16,7 +16,13 @@ To make the confusion matrix and ROC curves for the test set as well
 **Problems:** 
 1) GPU and system RAM is getting crashed on colab for 40 patients as well ?
 2) How to see how many tensors are to be connected to gpu ?
-3) In CT dataset : there are more segmentations in the dataset than the CT slices
+3) GPU runtime has a limit after which we cannot access a GPU , ????
+4) In CT dataset : there are more segmentations in the dataset than the CT slices
+5) How to like make packages be permanantly installed in colab with pip install
+
+**TODO**
+1) Try using a seperate file for training the model , 
+2) But connecting files is not easy in colab?? 
 
 **Solved:**
 1) Tensors need to be connected to gpu to use GPU RAM
