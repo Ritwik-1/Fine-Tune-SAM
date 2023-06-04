@@ -25,7 +25,8 @@ To make the confusion matrix and ROC curves for the test set as well
 2) But connecting files is not easy in colab?? 
 
 **Solved:**
-1) Tensors need to be connected to gpu to use GPU RAM
-2) Segmentation masks are tensors with each tensor[i] being a mask 
+1) Images need to be reshaped from 512x512 to 128x128 for saving RAM
+2) Tensors need to be connected to gpu to use GPU RAM
+3) Segmentation masks are tensors with each tensor[i] being a mask 
    They are contained in one file only
 
